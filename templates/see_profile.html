@@ -1,0 +1,26 @@
+{% extends 'inbase.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="container-login100">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+            <span class="login100-form-title p-b-33">
+                Your Profile
+            </span>
+            <div class="sansserif">
+                {% for i in profile %}
+                <label style="color:black; font-size: 20px;">First Name:&emsp; {{ i.fname }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Last Name:&emsp; {{ i.lname }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Your Age:&emsp; {{ i.age }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Contact Number:&emsp; {{ i.contact }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Gender:&emsp; {{ i.gender }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Email id:&emsp; {{ i.email }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Street:&emsp; {{ i.street }}</label><br><br>
+                <label style="color:black; font-size: 20px;">City:&emsp; {{ i.city }}</label><br><br>
+                <label style="color:black; font-size: 20px;">State:&emsp; {{ i.state }}</label><br><br>
+                <label style="color:black; font-size: 20px;">Pin code:&emsp; {{ i.pincode }}</label>
+                {% endfor %}
+            </div>
+        </div>
+        {% endblock %}
