@@ -78,10 +78,12 @@ This will allow you to run the application perfectly in you machine!
 
 ### Home:
 Below is the home page where users or admins can login.
+
 ![Home Page](./Medilab_Screenshots/Home_page.png)
 
 ### Patient Login:
 If patients have accounts they can login or create account.
+
 ![Patient Login](./Medilab_Screenshots/Patient_login.png)
 
 ### Patient Dashboard:
@@ -95,6 +97,7 @@ Patients can:
 
 ### Symptoms:
 Symptoms page where symptoms can be selected by typing in the live search.
+
 ![Symptoms](./Medilab_Screenshots/selecting_symptoms1.png)
 
 ![Symptoms](./Medilab_Screenshots/Selecting_symptoms2.png)
@@ -103,19 +106,27 @@ Symptoms page where symptoms can be selected by typing in the live search.
 
 ### Results:
 Result is predicted(fetched) by making api call to the Infermedica's API.
+
 ![Results](./Medilab_Screenshots/Results.png)
 
 ### Doctor:
 Doctor Page can search for doctor based on various filters.
+
 ![Doctor](./Medilab_Screenshots/Doctors_Page.png)
 
 ### Admin Login:
 Customized Built-in Django's Admin panel.
+
 ![Admin Login](./Medilab_Screenshots/Admin_login.png)
 
 ### Admin Dashboard:
 Admin Dashboard having all tables and can add new doctor into the system.
+
 ![Admin Dashboard](./Medilab_Screenshots/Admin_dashboard.png)
 
+## Resources:
 
+For getting APP_ID and APP_KEY: [Infermedica](https://infermedica.com/product/infermedica-api)
+
+For more configuration in the API results visit [Infermedica's Github Page](https://github.com/infermedica/python-api)
 
