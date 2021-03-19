@@ -4,7 +4,7 @@ chardet==3.0.4
 cycler==0.10.0
 Django==3.0
 django-cors-headers==3.2.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 idna==2.9
 infermedica-api==0.1.1
 joblib==0.14.1
